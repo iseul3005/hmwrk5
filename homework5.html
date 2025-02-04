@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>homework_prjctr</title>
+   <style>
+       body{
+
+
+           background-color: #f6f6f6;
+           font-size: 32px;
+           font-family: 'Poppins', Helvetica, sans-serif;
+           font-weight: 200;
+           color: #2F424C;
+       }
+     
+       header > p{
+           font-size: 18px;
+           font-weight: 100;
+       }
+
+
+       .container{
+           display: flex;
+           flex-flow: row wrap;
+           justify-content: center;
+           align-items: center;
+           gap: 40px;
+           margin: 40px;
+           padding: 10px;
+       }
+  
+       .card {
+   width: 500px;
+   height: 400px;
+   padding: 5px;
+   border: 0.5px solid #2F424C;
+   border-radius: 10px;
+   background: #fff;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   box-shadow: 5px 5px 20px rgba(189, 187, 187, 0.5);
+   max-width: 25%;
+   transition: background-color 0.3s ease;
+
+
+}
+.card:hover {
+   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+.card img {
+   width: 80%;
+   height: auto;
+   border-radius: 5px;
+}
+.card h3 {
+   margin-top: 0px;
+   font-size: 22px;
+}
+
+
+.card p {
+   font-size: 16px;
+   color: #666;
+   font-weight: 100;
+}
+   </style>
+</head>
+<body>
+   <Header>
+       <h1>Browse Cat Breeds</h1>
+       <p>Curious about your cat’s heritage and breed traits? Discover more with our extensive cat breed library, featuring over 40 breeds.
+       </p>
+   </Header>
+   <div class="container">
+       <div class="card">
+           <img src="https://basepaws.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F7hqiona4456t%2F1Ztd6obHYcEwU7qb6NuQzh%2F4344dcc11fde8382e188cb9d815636a2%2Famerican_shorthair_cat_breed.jpg&w=640&q=75" alt="American Shorthair Cat Image">
+           <p> Other Breeds</p>
+           <h3>American Shorthair</h3>
+       </div>
+       <div class="card">
+           <img src="https://basepaws.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F7hqiona4456t%2F7ko67AQ6W0aKtHej7WQVNc%2F1cb9f4ef12adb66011060a436dd767fe%2Ftoyger-cat.jpg&w=640&q=75" alt="Toyger Cat Image">
+           <p> Exotic Breeds</p>
+           <h3>Toyger</h3>
+       </div>
+       <div class="card">
+           <img src="https://basepaws.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F7hqiona4456t%2F2GXve7pFtOQMAjgUDThieF%2F083a71b1f9b5880bee29a22845d1d31e%2Fscottish_fold.jpg&w=640&q=75" alt="Scottish Fold Image">
+           <p> Western Breeds</p>
+           <h3>Scottish Fold</h3>
+       </div>
+          
+      
+
+
+   </div>
+  
+</body>
+</html>
+
